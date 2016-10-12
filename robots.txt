@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /
+Disallow: /config.php
+Disallow: /i.php
+Disallow: /image.php
+Disallow: /includes.php
+Disallow: /request.php
+Disallow: /admin/
+Disallow: /captcha/
+Disallow: /controller/
+Disallow: /dumper/
+Disallow: /helpers/
+Disallow: /images/
+Disallow: /img/
+Disallow: /lib/
+Disallow: /media/
+Disallow: /templates/
+
+Host: federation.opt-fashion.com
+Sitemap: http://federation.opt-fashion.com/sitemap.xml

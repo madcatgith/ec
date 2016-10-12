@@ -1,0 +1,1 @@
+<input type="file" id="field{$formID}{$element.id}" name="data[{$element.id}]" accept="application/msword, text/*"/>

@@ -1,0 +1,1 @@
+<p class="successOrder"><?=Dictionary::GetUniqueWord(380);?></p>

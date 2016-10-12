@@ -1,0 +1,107 @@
+.inner{
+	width:300px;
+	z-index:5000;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.map, .gmap, .hmap {
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 10;
+	background: url(../../img/form_back.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+.emap {
+	background-image: url(../../img/emap.jpg);
+}
+
+.gmap {
+	background: #343434;
+	z-index: 11;
+}
+
+form .inputs .inner {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -148px;
+	margin-top: 15px;
+	z-index: 40;
+}
+
+form .content {
+	position: absolute;
+	left: 14px;
+	width: 335px;
+}
+
+form .content-top {
+	position: absolute;
+	top: 14px;
+	z-index: 30;
+	height: 5px;
+	background: url(../../img/content-top.png) no-repeat;
+}
+
+form .content-middle {
+	position: absolute;
+	top: 19px; 
+	z-index: 30;
+	background: url(../../img/content-middle.png) repeat-y;
+}
+
+form .content-gradient {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	z-index: 35;
+	width: 100%;
+}
+
+form .content-bottom {
+	position: absolute;
+	bottom: 14px;
+	z-index: 30;
+	height: 5px;
+	width:100%;
+	background: url(../../img/content-bottom.png) no-repeat;
+}
+
+form .mask {
+	position: absolute;
+	width: 100%;
+	left:0;
+	z-index: 20;
+}
+
+form .mask-top {
+	top: 0;
+	height: 65px;
+	background: url(../../img/credentials.png) no-repeat;
+}
+
+form .mask-middle {
+	background: url(../../img/mask-middle.png) repeat-y;
+}
+
+form .mask-bottom {
+	bottom: 0;
+	height: 30px;
+	background: url(../../img/mask-bottom.png) no-repeat;
+}
+
+
+
+
+fieldset .mask-top {
+	height: 65px;
+}
+
+fieldset {
+	margin-bottom: 40px;
+}

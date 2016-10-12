@@ -1,0 +1,1 @@
+<textarea id="field{$formID}{$element.id}" name="data[{$element.id}]" placeholder="{$element.placeholder}">{$element.value}</textarea>

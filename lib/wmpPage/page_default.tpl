@@ -1,0 +1,1 @@
+{Content::getBody($langID, $menuID, $contentID)}

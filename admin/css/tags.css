@@ -1,0 +1,206 @@
+
+body {font-size: 13px; font-family: Arial, Sans-serif; color: #000000; margin: 0px; background: #fff;/*#213866;*/ }
+table{display:table;}
+tr {display:table-row;}
+td {display:table-cell;}
+TABLE, TR, TD, input {font: tahoma;  font-size: 11px; color: #555555; TEXT-DECORATION: none;}
+form{display:block !important;width:100%}
+
+h1,h2,h3,h4 {COLOR: #363C7E; FONT-SIZE: 14px; }
+select{
+	border-color:#a5cd38; border-width: 2px;
+	 scrollbar-arrow-color: #963602; 
+scrollbar-track-color: #E8C89D; 
+scrollbar-face-color: #F79966;
+scrollbar-3dlight-color: #963602; 
+scrollbar-darkshadow-color: #963602; 
+scrollbar-highlight-color: white; 
+scrollbar-shadow-color: white;
+}
+.top_head{
+	background-color: #555555; height: 30px;
+	
+}
+.search {FONT-FAMILY: Arial, Sans-serif; COLOR: #000000; FONT-SIZE: 9px; TEXT-DECORATION: none; FONT-WEIGHT: normal}
+.searchbutton {cursor:hand; FONT-FAMILY: Arial, Sans-serif; COLOR: #ffffff; FONT-SIZE: 8px; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.menu {FONT-FAMILY: Arial, Sans-serif; COLOR: #ffffff; FONT-SIZE: 13px; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.menu2 {FONT-FAMILY: Arial, Sans-serif; COLOR: #cccccc; FONT-SIZE: 18px; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.pmenu {FONT-FAMILY: Arial, Sans-serif; COLOR: #cccccc; FONT-SIZE: 11px; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.lang {FONT-FAMILY: Arial, Sans-serif; COLOR: #cccccc; FONT-SIZE: 11px; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+
+a       {color:#000000; font: tahoma lighter ; font-size: 12px;}
+a:hover {color:#a5cd38; }
+.lang{
+	font: Arial regular; font-size: 10px; 
+}
+
+.rus {
+	color:red;  text-decoration: underline;
+}
+a.exit:link    {font: tahoma bold ; font-size: 11pt; color: #ffffff; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.exit:visited {font: tahoma bold ; font-size: 11pt; color: #ffffff; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.exit:active  {font: tahoma bold ; font-size: 11pt; color: #ffffff; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.exit:hover   {font: tahoma bold ; font-size: 11pt; color: #9d0a0e; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+
+a.menu:link    {color:#7a7a7a; font: tahoma  ; font-weight: lighter; font-size: 11px; text-decoration: underline;}
+a.menu:visited {color:#7a7a7a; font: tahoma ; font-weight: lighter; font-size: 11px; text-decoration: underline;}
+a.menu:active  {color:#7a7a7a; font: tahoma ;font-weight: lighter; font-size: 11px; text-decoration: underline;}
+a.menu:hover   {color:red; font: tahoma ; font-weight: lighter; font-size: 11px; text-decoration: none;}
+
+a.add:link    {font: tahoma regular ; font-size: 10pt;  color: #ef222d; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.add:visited {font: tahoma regular ; font-size: 10pt;  color: #ef222d; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.add:active  {font: tahoma regular ; font-size: 10pt;  color: #ef222d; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+a.add:hover   {font: tahoma regular ; font-size: 10pt;  color: #9d0a0e; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+
+.ul     {margin-top: 10px; margin-bottom: 15px; list-style-type: disc; margin-left: 15px; padding-left: 0px; color:#ed1c24;}
+.top_2 { font: tahoma ;font-size: 11pt; color: #ffffff; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.top { font: tahoma ; font-size: 11px; color: #4f4f4f; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.top_1 { font: tahoma ; font-size: 11px; color: #4f4f4f; TEXT-DECORATION: none; FONT-WEIGHT: bold}
+.top_3 { color:#7a7a7a; font: tahoma ; font-weight: lighter; font-size: 11px;}
+.mes {FONT-FAMILY: Arial, Sans-serif; COLOR: Red; FONT-SIZE: 12px; TEXT-DECORATION: none; }
+.gr {FONT-FAMILY: tahoma; font-weight: lighter; COLOR: #627080; FONT-SIZE: 12px; TEXT-DECORATION: none;}
+.grr {FONT-FAMILY: tahome; font-weight: lighter; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; font-weight: bolder;}
+.w {FONT-FAMILY: tahoma; COLOR: #000000; FONT-SIZE: 12px;}
+.button {cursor:hand; FONT-FAMILY: verdana, Arial, Sans-serif; border-style : solid; COLOR: #ffffff; FONT-SIZE: 10px; background-color: #ee1c25; FONT-WEIGHT: normal; border-width:1px; }
+a.blue {COLOR: #4f4f4f; font-size: 12px; font:  Arial;}
+.blue {COLOR: #4f4f4f; font-size: 12px;  font:  Arial;}
+.shapka_1{
+	font-size: 26pt; font-family: Myriad Pro Light ; color: #4f4f4f; 
+}
+
+.shapka_2{
+	font-size: 26pt; font-family: Myriad Pro; color: #4f4f4f; font-weight: bold; 
+}
+.left_table{
+	padding-left: 22px;
+}
+
+.treeview {
+overflow-y:auto;
+background-color:#e3f3b7;
+}
+.treeview a{
+font-size:10px; 
+text-decoration:none;
+}
+
+.treeview a.selected{
+color:red;
+}
+
+.left_table_1{
+	 width: 200px; border: 0px; background-color: #a5cd38; height: 100%;  
+}
+.admin{
+	  font: Tahoma bold 11pt; font-size: 11pt; color: #ffffff  
+}
+.admin_1{
+	  font: Tahoma 11pt; font-size: 11pt; color: #ffffff; background-color: #1ff8E8; width: 106px;  
+}
+.admin_bkground{
+	 background-color: #9d0a0e;
+}
+.yprav{
+	background-color: #a5cd38; height: 35px;
+}
+
+.menu_bg{
+	  background-color: #f8f8f8;  border: 1px dashed #627080;
+}
+
+.menu_bg_2{
+	   border: 1px solid #627080;
+}
+.cap{
+	color: #80ae01; font-size: 12px; font: Tahoma;
+}
+#right{
+	background-color: #a5cd38;
+}
+
+.right{
+	background-color: #a5cd38;
+}
+
+.tdlr{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:1px;border-bottom-width:0px;border-left-width:1px}
+.tdr{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:1px;border-bottom-width:0px;border-left-width:0px}
+.tdtr{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:0px;border-left-width:0px}
+.tdtr1{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:0px}
+.tdrb{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:1px;border-bottom-width:1px;border-left-width:0px}
+.tdb{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:0px;border-bottom-width:1px;border-left-width:0px}
+.tdl{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:1px}
+.tdlt{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:0px;border-bottom-width:0px;border-left-width:1px}
+.tdlt1{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:0px;border-bottom-width:1px;border-left-width:1px}
+.tdlb{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:0px;border-bottom-width:1px;border-left-width:1px}
+.tdlbr{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px}
+.tdltb{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:0px;border-bottom-width:1px;border-left-width:1px}
+.tdtbr{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:0px}
+.tdbr{border-color:#627080;border-style:solid;border-top-width:0px;border-right-width:1px;border-bottom-width:1px;border-left-width:0px}
+.tdfull{border-color:#627080;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px}
+
+ .class_1{
+  background-color: #f8f8f8;
+ }
+ .class_2{
+  background-color: #fef8e0;
+ }
+ .class_3{
+  background-color: #FFFFFF;
+ }
+ .class_4{
+  background-color: #a5cd38;
+ }
+ .class_5{
+  background-color: #f5f5f5;
+ }
+.ui-datepicker-trigger{
+	padding-left:5px;
+	vertical-align:top;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0 0.4em 0 0 !important;
+}
+
+.td_left{
+	background: #F2F5F7 url(/admin/images/td_left.png) repeat-x scroll 50% top;
+}
+
+ins {
+	display: inline-block; height: 16px; text-decoration: none; width: 16px; background-image:url(/admin/js/jstree/themes/checkbox/icons.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+
+ins.checked {
+background-position:0 -47px;
+}
+
+ins.unchecked {
+background-position:40px 40px;
+}
+
+span.checkblock {
+	width:48%; float:left; line-height:17px; margin-right:5px;
+}
+
+span.checkblock label{
+	font-size:12px;
+	color:darkBlue;
+}
+
+span.checkblock label, span.checkblock input {
+	cursor:pointer;
+	vertical-align:middle; margin:0; padding:0;
+}
+
+span.checkblock label:hover {
+color:CornflowerBlue;
+}
+
+.ui-state-default .langselect a {
+color: LightSlateGray;
+}
+
+.ui-state-default .langselect.active a {
+color: darkOrange;
+}

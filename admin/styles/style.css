@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html, body{height: 100%;}
+ol, ul{ list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after{content: '';content: none;}
+:focus{outline: 0;}
+ins{text-decoration: none;}
+del{text-decoration: line-through;}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	overflow: hidden;
+}
+.rh{
+	position: relative;
+	overflow: hidden;
+}
+
+.vertical-align{
+	float:left;
+	height:50%;
+	margin-top:-130px;
+	position:relative;
+	width:100%;
+}
+.enterme{
+	display:block;
+	padding:0;
+	position:relative;
+	width:358px;
+	overflow:hidden;
+	margin:0 auto;
+	clear:both;
+	font:normal 12px/1.2 Verdana,sans-serif;
+	
+}
+
+.enterme label, .enterme input{
+	float:left;
+	margin-top:10px;
+	color:#aaa;
+	border:1px solid #555;
+	background:#000;
+}
+
+.enterme label{
+	width:120px;
+	border:0px;
+	background:transparent;
+}
+
+.enterme a{
+	display:block;
+	clear:both;
+	color:#fc8;
+	padding:10px 0;
+	text-align:right;
+	margin-left:150px;
+}
+
+.enterme .submit{	
+	float:right;
+	margin-top:0px;
+}
+
+.inner_light{
+	background:url(../images/img/form_back.jpg) 0 0;
+	padding:0px;
+}
+
+.map{
+	border:1px solid #f00;
+}
+
+.inner{
+	width:300px;
+	z-index:5000;
+	position:absolute;
+	overflow:hidden;
+	left:32px;
+}
+
+
+.map, .gmap, .hmap {
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 10;
+	background: url(../images/img/form_back.jpg);
+	height: 98%;
+	width: 98%;
+}
+
+.emap {
+	background-image: url(../images/img/emap.jpg);
+}
+
+.gmap {
+	background: #000;
+	z-index: 11;
+}
+
+form .inputs .inner {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -148px;
+	margin-top: 15px;
+	z-index: 40;
+}
+
+form .content {
+	position: absolute;
+	left: 14px;
+	width: 330px;
+}
+
+form .content-top {
+	position: absolute;
+	top: 14px;
+	z-index: 30;
+	height: 5px;
+	background: url(../images/img/content-top.png) no-repeat;
+}
+
+form .content-middle {
+	position: absolute;
+	top: 19px; 
+	z-index: 30;
+	background: url(../images/img/content-middle.png) repeat-y;
+}
+
+form .content-gradient {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	z-index: 35;
+}
+
+form .content-bottom {
+	position: absolute;
+	bottom: 14px;
+	z-index: 30;
+	height: 5px;
+	background: url(../images/img/content-bottom.png) no-repeat;
+}
+
+form .mask {
+	position: absolute;
+	width: 100%;
+	left:0;
+	z-index: 20;
+}
+
+form .mask-top {
+	top: 0;
+	height: 65px;
+	background: url(../images/img/credentials.png) no-repeat;
+}
+
+form .mask-middle {
+	background: url(../images/img/mask-middle.png) repeat-y;
+}
+
+form .mask-bottom {
+	bottom: 0;
+	height: 30px;
+	background: url(../images/img/mask-bottom.png) no-repeat;
+}
+
+fieldset .mask-top {
+	height: 65px;
+}
+
+fieldset {
+	margin-bottom: 40px;
+}
